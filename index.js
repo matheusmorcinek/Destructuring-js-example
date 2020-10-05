@@ -22,3 +22,15 @@ const [name1 = `Matheus`] = [1];
 // const [name1 = `Matheus`] = [];
 
 console.log(name1);
+
+const person = {
+    name: `Matheus`,
+    age: 29
+};
+
+const personWithPhone = {
+    ...person,
+    phone: 123456789
+};
+
+console.log(personWithPhone);
