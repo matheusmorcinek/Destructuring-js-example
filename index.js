@@ -9,3 +9,10 @@ console.log(numbers);
 const numbersArray = [...pairNumbers, ...oddNumbers];
 
 console.log(numbersArray);
+
+// const num1 = 1;
+// const num2 = 2;
+//or
+const [num1, num2] = [1, 2];
+
+console.log(num1, num2);
