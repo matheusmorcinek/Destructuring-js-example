@@ -16,3 +16,9 @@ console.log(numbersArray);
 const [num1, num2, ...otherNumbers] = [1, 2, 3, 4, 5];
 
 console.log(num1, num2, otherNumbers);
+
+//default value
+const [name1 = `Matheus`] = [1];
+// const [name1 = `Matheus`] = [];
+
+console.log(name1);
