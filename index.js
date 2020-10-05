@@ -34,3 +34,19 @@ const personWithPhone = {
 };
 
 console.log(personWithPhone);
+
+
+// const name = person.name;
+//or
+const { name } = person;
+
+console.log(name);
+
+function printData({name, age}) {
+
+    console.log(name, age);
+}
+
+printData(personWithPhone);
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment
